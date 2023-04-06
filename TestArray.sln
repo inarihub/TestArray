@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestArray", "TestArray\TestArray.csproj", "{740CBB10-1565-4B36-B664-8D2C0D9A86DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestArray", "TestArray\TestArray.csproj", "{740CBB10-1565-4B36-B664-8D2C0D9A86DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestArrayTests", "TestArrayTest\TestArrayTests.csproj", "{FED7384D-7428-4C1B-A4E1-3791458A0847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{740CBB10-1565-4B36-B664-8D2C0D9A86DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740CBB10-1565-4B36-B664-8D2C0D9A86DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740CBB10-1565-4B36-B664-8D2C0D9A86DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED7384D-7428-4C1B-A4E1-3791458A0847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED7384D-7428-4C1B-A4E1-3791458A0847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED7384D-7428-4C1B-A4E1-3791458A0847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED7384D-7428-4C1B-A4E1-3791458A0847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

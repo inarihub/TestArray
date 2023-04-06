@@ -1,25 +1,23 @@
-﻿using System.Diagnostics;
+﻿namespace TestArray;
 
-namespace TestArray
+public class Program
 {
-    public class Program
+    public static void Main()
     {
-        public static void Main()
+        var min = GetMin(new int[] { -5000, -5, 15 });
+        Console.WriteLine(min);
+        Console.ReadKey();
+    }
+
+    public static int? GetMin(int[] arr)
+    {
+        if (arr is null || arr.Length == 0) { return null; }
+        int min = arr[0];
+        for (int i = 0; i < arr.Length; i++)
         {
-            var min = GetMin(new int[] { -5000, -5, 15 });
-            Console.WriteLine(min);
-            Console.ReadKey();
+            if (arr[i] < min)
+                min = arr[i];
         }
-        static int? GetMin(int[] arr)
-        {
-            if (arr is null || arr.Length == 0) { return null; }
-            int min = arr[0];
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i] < min)
-                    min = arr[i];
-            }
-            return min;
-        }
+        return min;
     }
 }
